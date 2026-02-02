@@ -51,8 +51,15 @@ arl-explanatory-poc/
 
 ```bash
 python cvd_demo_run.py
+```
+---
 
-## Optional safety test (unit mismatch):
+## Optional safety test (unit mismatch)
+
+```bash
+python cvd_demo_run_unit_mismatch.py
+```
+---
 
 ## Disclaimer
 
@@ -60,5 +67,4 @@ This repository is a technical proof of concept.
 
 Any clinical thresholds, interpretations, or references are illustrative and curated for demonstration purposes only and must not be used for medical decision-making.
 
-python cvd_demo_run_unit_mismatch.py
-
+---

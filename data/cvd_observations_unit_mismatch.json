@@ -1,0 +1,53 @@
+[
+  {
+    "resourceType": "Observation",
+    "id": "hba1c-cvd",
+    "status": "final",
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "4548-4"
+        }
+      ]
+    },
+    "valueQuantity": {
+      "value": 6.0,
+      "unit": "%"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "ldl-cvd",
+    "status": "final",
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "13457-7"
+        }
+      ]
+    },
+    "valueQuantity": {
+      "value": 3.9,
+      "unit": "mg/dL"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "bp-cvd",
+    "status": "final",
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "8480-6"
+        }
+      ]
+    },
+    "valueQuantity": {
+      "value": 142,
+      "unit": "mmHg"
+    }
+  }
+]

@@ -64,6 +64,21 @@ The full directory structure is visible directly in the GitHub repository view.
 
 ---
 
+## Repository structure (overview)
+
+- README.md
+- arl_service.py
+- arl_knowledge.json
+- cvd_demo_run.py
+- cvd_demo_run_unit_mismatch.py
+- data/
+  - cvd_observations.json
+  - cvd_observations_unit_mismatch.json
+- LICENSE
+
+
+---
+
 ## How to run the demo
 
 ```bash

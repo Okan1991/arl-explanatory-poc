@@ -41,9 +41,26 @@ Convergence is treated as a plausibility heuristic, not as proof.
 
 ---
 
-## Repository structure
+## Repository contents
 
-arl-explanatory-poc/
+The repository contains:
+
+- `arl_service.py`  
+  Core deterministic logic for interpreting FHIR observations and detecting convergence.
+
+- `arl_knowledge.json`  
+  Curated, versioned knowledge pack defining thresholds, interpretations, and references.
+
+- `cvd_demo_run.py`  
+  Main demo script showing normal end-to-end behaviour.
+
+- `cvd_demo_run_unit_mismatch.py`  
+  Safety test demonstrating explicit rejection of unit mismatches.
+
+- `data/`  
+  Sample FHIR observation inputs used for the demo runs.
+
+The full directory structure is visible directly in the GitHub repository view.
 
 ---
 

@@ -1,0 +1,76 @@
+{
+  "4548-4": {
+    "unit": "%",
+    "pack_version": "arl-pack v0.1.0",
+    "thresholds": {
+      "normal": {
+        "max": 5.6
+      },
+      "prediabetic": {
+        "min": 5.7,
+        "max": 6.4
+      },
+      "diabetic": {
+        "min": 6.5
+      }
+    },
+    "interpretations": {
+      "prediabetic": {
+        "snomed": "714628002",
+        "label": "Prediabetic glycemic pattern",
+        "explanation": "HbA1c reflects average blood glucose over roughly 2-3 months. This value is above the optimal range and is commonly used to indicate increased risk of type 2 diabetes when persistent.",
+        "action": "Consider a structured lifestyle program (e.g., 150+ min/week moderate exercise plus dietary pattern change) and discuss follow-up testing with a clinician.",
+        "evidence": "Example placeholder: ADA Standards of Care (year/section to be curated).",
+        "evidence_grade": "A"
+      }
+    }
+  },
+  "1558-6": {
+    "unit": "mg/dL",
+    "pack_version": "arl-pack v0.1.0",
+    "thresholds": {
+      "normal": {
+        "max": 99
+      },
+      "prediabetic": {
+        "min": 100,
+        "max": 125
+      },
+      "diabetic": {
+        "min": 126
+      }
+    },
+    "interpretations": {
+      "prediabetic": {
+        "snomed": "9414007",
+        "label": "Impaired fasting glucose pattern",
+        "explanation": "Fasting glucose is above the typical reference range. Persistent elevations may reflect impaired glucose regulation and can co-occur with insulin resistance.",
+        "action": "Consider lifestyle measures and discuss repeat measurements and context (medication, illness, recent diet) with a clinician.",
+        "evidence": "Example placeholder: guideline reference to be curated.",
+        "evidence_grade": "A"
+      }
+    }
+  },
+  "1988-5": {
+    "unit": "mg/L",
+    "pack_version": "arl-pack v0.1.0",
+    "thresholds": {
+      "normal": {
+        "max": 3.0
+      },
+      "elevated": {
+        "min": 3.1
+      }
+    },
+    "interpretations": {
+      "elevated": {
+        "snomed": "55235003",
+        "label": "Elevated inflammatory marker",
+        "explanation": "CRP is a non-specific inflammatory marker. Mild elevations can occur for many reasons (infection, chronic inflammation, recent intense exercise).",
+        "action": "Consider context and, if persistent or high, discuss with a clinician. Avoid over-interpreting single CRP values in isolation.",
+        "evidence": "Example placeholder: reference to be curated.",
+        "evidence_grade": "B"
+      }
+    }
+  }
+}
